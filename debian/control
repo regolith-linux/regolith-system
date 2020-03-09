@@ -1,0 +1,18 @@
+Source: regolith-system
+Section: x11
+Priority: optional
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.1.2
+Homepage: https://github.com/regolith-linux/regolith-system
+Vcs-Git: https://github.com/regolith-linux/regolith-system.git
+
+Package: regolith-system
+Architecture: any
+Depends: ${misc:Depends},
+    regolith-desktop,
+    regolith-lightdm-config,
+    ubiquity-slideshow-regolith
+Multi-Arch: foreign
+Description: Regolith System
+ This package installs a complete Regolith system. 
