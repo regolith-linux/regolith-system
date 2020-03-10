@@ -16,3 +16,29 @@ Depends: ${misc:Depends},
 Multi-Arch: foreign
 Description: Regolith System
  This package installs a complete Regolith system. 
+
+Package: regolith-system-xubuntu
+Architecture: any
+Depends: ${misc:Depends},
+    regolith-system
+Conflicts: gdm3,
+    libxfce4util7,
+    xfce4-power-manager-data,
+    xfce4-taskmanager,
+    libxfce4ui-common,
+    libxfce4util-common,
+    plymouth-theme-xubuntu-logo,
+    plymouth-theme-xubuntu-text,
+    ubiquity-slideshow-xubuntu,
+    xubuntu-artwork,
+    xubuntu-community-wallpapers,
+    xubuntu-community-wallpapers-bionic,
+    xubuntu-docs,
+    xubuntu-icon-theme,
+    xubuntu-wallpapers,
+    libreoffice-core,
+    libreoffice-common,
+    snapd
+Multi-Arch: foreign
+Description: Regolith System
+ This package installs a complete Regolith system.
