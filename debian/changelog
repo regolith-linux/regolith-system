@@ -1,3 +1,9 @@
+regolith-system (1.0.6-regolith1) bionic; urgency=medium
+
+  * Add dependency on plymouth regolith theme. 
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Fri, 13 Mar 2020 21:55:47 -0700
+
 regolith-system (1.0.5-regolith1) bionic; urgency=medium
 
   * Add dependency on display manager. 
