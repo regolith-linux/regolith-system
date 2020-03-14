@@ -1,3 +1,9 @@
+regolith-system (1.0.7-regolith1) bionic; urgency=medium
+
+  * Break dependencies into Suggests and Recomments additionally. 
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sat, 14 Mar 2020 12:05:08 -0700
+
 regolith-system (1.0.6-regolith1) bionic; urgency=medium
 
   * Add dependency on plymouth regolith theme. 

@@ -10,28 +10,35 @@ Vcs-Git: https://github.com/regolith-linux/regolith-system.git
 Package: regolith-system
 Architecture: any
 Depends: ${misc:Depends},
+    gnome-system-tools,
+    gsettings-ubuntu-schemas,
+    ibus,
+    libavahi-ui-gtk3-0,
+    network-manager-config-connectivity-ubuntu,
+    regolith-desktop,    
+    ubuntu-system-service,
+    x-display-manager,
+    xinit,
+    xorg
+Recommends:
     alsa-base,
+    lightdm,
+    lightdm-gtk-greeter
+    nautilus,
+    plymouth-themes,
+    regolith-lightdm-config,
+    ubiquity-frontend-gtk,
+    ubiquity-slideshow-regolith,
+    ubiquity
+Suggests:
     eog,
     evince,
     file-roller,
     gedit,
     gnome-font-viewer,
-    gnome-system-tools,
-    gsettings-ubuntu-schemas,
-    ibus,
-    libavahi-ui-gtk3-0,
-    plymouth-theme-regolith-text,
-    nautilus,
-    network-manager-config-connectivity-ubuntu,
-    regolith-desktop,
-    regolith-lightdm-config,
-    ubiquity-frontend-gtk,
-    ubiquity-slideshow-regolith,
-    ubiquity,
-    ubuntu-system-service,
-    x-display-manager,
-    xinit,
-    xorg
+    htop,
+    neofetch,
+    vim
 Multi-Arch: foreign
 Description: Regolith System
  This package installs a complete Regolith system. 
