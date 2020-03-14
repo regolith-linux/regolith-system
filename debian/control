@@ -22,7 +22,14 @@ Depends: ${misc:Depends},
     gedit,
     file-roller,
     eog,
-    evince
+    evince,
+    ubiquity,
+    ubiquity-frontend-gtk,
+    xinit,
+    xorg,
+    gnome-system-tools,
+    gnome-font-viewer,
+    alsa-base
 Multi-Arch: foreign
 Description: Regolith System
  This package installs a complete Regolith system. 
