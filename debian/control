@@ -23,7 +23,7 @@ Depends: ${misc:Depends},
 Recommends:
     alsa-base,
     lightdm,
-    lightdm-gtk-greeter
+    lightdm-gtk-greeter,
     nautilus,
     regolith-lightdm-config,
     ubiquity-frontend-gtk,
