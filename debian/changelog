@@ -1,3 +1,10 @@
+regolith-system (1.0.3-regolith1) bionic; urgency=medium
+
+  * Remove Xubuntu variant.
+  * Update package dependencies for commong GNOME functionality. 
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Fri, 13 Mar 2020 20:00:56 -0700
+
 regolith-system (1.0.2-regolith1) bionic; urgency=medium
 
   * Add target for Xubuntu based ISO. 
