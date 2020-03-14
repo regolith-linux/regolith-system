@@ -20,24 +20,6 @@ Depends: ${misc:Depends},
     x-display-manager,
     xinit,
     xorg
-Recommends:
-    alsa-base,
-    lightdm,
-    lightdm-gtk-greeter,
-    nautilus,
-    regolith-lightdm-config,
-    ubiquity-frontend-gtk,
-    ubiquity-slideshow-regolith,
-    ubiquity
-Suggests:
-    eog,
-    evince,
-    file-roller,
-    gedit,
-    gnome-font-viewer,
-    htop,
-    neofetch,
-    vim
 Multi-Arch: foreign
 Description: Regolith System
  This package installs a complete Regolith system. 
