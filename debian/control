@@ -21,6 +21,7 @@ Depends: ${misc:Depends},
     x-display-manager,
     xinit,
     xorg
+Conflicts: indicator-application
 Multi-Arch: foreign
 Description: Regolith System
  This package installs a complete Regolith system. 
