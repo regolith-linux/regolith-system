@@ -1,3 +1,9 @@
+regolith-system (1.4.0.3-1) focal; urgency=medium
+
+  * Remove plymouth theme as required package. 
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sun, 03 May 2020 10:22:43 -0700
+
 regolith-system (1.4.0.2-1) focal; urgency=medium
 
   * Conflict with indicator-application to enable system tray. 
