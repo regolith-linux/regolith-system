@@ -1,4 +1,4 @@
-regolith-system (1.4.0.3-1ubuntu1) UNRELEASED; urgency=medium
+regolith-system (1.4.0.4-1) focal; urgency=medium
 
   [ Ken Gilmer ]
   * Add gbp conf file, cleanup.
