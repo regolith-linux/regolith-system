@@ -17,10 +17,9 @@ Depends: ${misc:Depends},
     network-manager-config-connectivity-ubuntu,
     regolith-desktop,    
     ubuntu-system-service,
-    x-display-manager,
-    xinit,
-    xorg
+    lightdm | x-display-manager,
+    xinit
 Conflicts: indicator-application
 Multi-Arch: foreign
-Description: Regolith System
- This package installs a complete Regolith system. 
+Description: Metapackage that describes a system with Regolith
+ This package installs a complete Regolith system, used for ISO generation. 

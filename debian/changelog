@@ -1,3 +1,10 @@
+regolith-system (1.4.0.3-1ubuntu1) UNRELEASED; urgency=medium
+
+  [ Ken Gilmer ]
+  * Add gbp conf file, cleanup.
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sat, 06 Jun 2020 12:39:39 -0700
+
 regolith-system (1.4.0.3-1) focal; urgency=medium
 
   * Remove plymouth theme as required package. 
