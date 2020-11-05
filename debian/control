@@ -15,7 +15,7 @@ Depends: ${misc:Depends},
     ibus,
     libavahi-ui-gtk3-0,
     network-manager-config-connectivity-ubuntu,
-    regolith-desktop,    
+    regolith-desktop-standard | regolith-desktop-meta,    
     ubuntu-system-service,
     lightdm | x-display-manager,
     xinit
