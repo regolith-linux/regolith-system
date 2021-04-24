@@ -16,7 +16,6 @@ Depends: ${misc:Depends},
     libavahi-ui-gtk3-0,
     network-manager-config-connectivity-ubuntu,
     regolith-desktop-standard | regolith-desktop-meta,    
-    ubuntu-system-service,
     lightdm | x-display-manager,
     xinit
 Conflicts: indicator-application
