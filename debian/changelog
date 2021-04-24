@@ -1,4 +1,4 @@
-regolith-system (1.5.1-1) bionic; urgency=medium
+regolith-system (1.5.2-1) hirsute; urgency=medium
 
   [ Ken Gilmer ]
   * remove deprecated dependency
