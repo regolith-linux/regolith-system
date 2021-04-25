@@ -12,12 +12,14 @@ Architecture: any
 Depends: ${misc:Depends},
     gnome-system-tools,
     gsettings-ubuntu-schemas,
-    ibus,
-    libavahi-ui-gtk3-0,
+    ibus,    
     network-manager-config-connectivity-ubuntu,
-    regolith-desktop-standard | regolith-desktop-meta,    
+    regolith-desktop-standard | regolith-desktop-meta,
     lightdm | x-display-manager,
     xinit
+Recommends: regolith-lightdm-config,
+    plymouth-theme-regolith,
+    libavahi-ui-gtk3-0
 Conflicts: indicator-application
 Multi-Arch: foreign
 Description: Metapackage that describes a system with Regolith
