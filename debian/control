@@ -14,7 +14,7 @@ Depends: ${misc:Depends},
     gsettings-ubuntu-schemas,
     ibus,    
     network-manager-config-connectivity-ubuntu,
-    regolith-desktop-standard | regolith-desktop-meta,
+    regolith-desktop | regolith-desktop-meta,
     lightdm | x-display-manager,
     xinit
 Recommends: regolith-lightdm-config,
