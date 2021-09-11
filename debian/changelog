@@ -1,10 +1,11 @@
-regolith-system (2.0.0-1) focal; urgency=medium
+regolith-system-ubuntu (2.0.0-1) focal; urgency=medium
 
   [ Ken Gilmer ]
   * Depend on regolith 2 desktop package
   * Break system binary package by OS
+  * Rename package because OS specific
 
- -- Regolith Linux <regolith.linux@gmail.com>  Sat, 11 Sep 2021 09:24:59 -0700
+ -- Regolith Linux <regolith.linux@gmail.com>  Sat, 11 Sep 2021 09:36:36 -0700
 
 regolith-system (1.5.3-1) bionic; urgency=medium
 
