@@ -7,7 +7,7 @@ Standards-Version: 4.1.2
 Homepage: https://github.com/regolith-linux/regolith-system
 Vcs-Git: https://github.com/regolith-linux/regolith-system.git
 
-Package: regolith-system
+Package: regolith-system-ubuntu
 Architecture: any
 Depends: ${misc:Depends},
     gnome-system-tools,
@@ -23,4 +23,20 @@ Recommends: regolith-lightdm-config,
 Conflicts: indicator-application
 Multi-Arch: foreign
 Description: Metapackage that describes a system with Regolith
- This package installs a complete Regolith system, used for ISO generation. 
+ This package installs a complete Regolith system on Ubuntu, used for ISO generation. 
+
+Package: regolith-system-debian
+Architecture: any
+Depends: ${misc:Depends},
+    gnome-system-tools,
+    ibus,    
+    regolith-desktop | regolith-desktop-meta,
+    lightdm | x-display-manager,
+    xinit
+Recommends: regolith-lightdm-config,
+    plymouth-theme-regolith,
+    libavahi-ui-gtk3-0
+Conflicts: indicator-application
+Multi-Arch: foreign
+Description: Metapackage that describes a system with Regolith
+ This package installs a complete Regolith system on Debian, used for ISO generation. 
